@@ -93,7 +93,6 @@
     font-family: 'Open Sans', sans-serif;
     color: #453E4F;
     background-color: white;
-    /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
   }
   
   ul,
@@ -110,7 +109,7 @@
   
   h1 {
     color: #453E4F;
-    font-family: 'Alike', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.75rem;
     line-height: 1.5;
     width: 100%
@@ -118,7 +117,7 @@
   
   h2 {
     color: #453E4F;
-    font-family: 'Alike', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
     line-height: 1.5;
     width: 100%;
@@ -156,7 +155,7 @@
   h4,
   h5,
   h6 {
-    font-family: 'Alike', serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     width: 100%
   }
@@ -302,7 +301,7 @@
   /* -------------------- Base Header Styles -------------------- */
   
   header {
-    background-color: #ffe8d6;
+    background-color: #ff9913;
   }
   
   header nav ul li {
