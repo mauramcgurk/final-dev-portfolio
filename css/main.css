@@ -334,8 +334,35 @@
   
 	
 	/* Hero Area */
-	
-	.hero-area {
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/maura-hero-img_1400x725.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+	/* ---can't get this to work yet
+
+.hero-image {
 	  display: flex;
 	  justify-content: center;
 	  flex-flow: row wrap;
@@ -343,6 +370,9 @@
 	  background-size: cover;
 	  min-height: 500px;
 	}
+---*/
+
+
 /* Portfolio */
   #work,
   #skills {
