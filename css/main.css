@@ -332,7 +332,18 @@
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
   
-  /* Portfolio */
+	
+	/* Hero Area */
+	
+	.hero-area {
+	  display: flex;
+	  justify-content: center;
+	  flex-flow: row wrap;
+	  background: url('../img/maura-hero-img_1400x725.png') center no-repeat;
+	  background-size: cover;
+	  min-height: 500px;
+	}
+/* Portfolio */
   #work,
   #skills {
     width: 100%;
