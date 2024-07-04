@@ -622,7 +622,7 @@
     }
   
     #about {
-      padding: 80px 0;
+      padding: 60px 0;
     }
   
     footer {
@@ -646,7 +646,7 @@
     }
   
     #skills {
-      padding-top: 80px;
+      padding-top: 60px;
     }
   
     .skills-header {
@@ -850,9 +850,10 @@
   
     /* element margins */
     /* the list element have 20px of bottom margin already */
+    
     header {
-      padding-top: 80px;
-      padding-bottom: 140px;
+      padding-top: 60px;
+      padding-bottom: 60px;
     }
   
     nav {
@@ -860,16 +861,11 @@
     }
   
     #work {
-      padding-top: 80px;
+      padding-top: 40px;
     }
   
     #skills {
-      padding-bottom: 120px;
-    }
-  
-    #about {
-      padding-top: 80px;
-      padding-bottom: 80px;
+      padding: 60 0px;
     }
   
     footer {
@@ -890,10 +886,6 @@
   
     .project-link {
       margin: 40px 0 80px 0;
-    }
-  
-    #skills {
-      padding-top: 120px;
     }
   
     #skills .content-wrapper {
@@ -982,7 +974,7 @@
   
     /* contact */
     footer .content-wrapper {
-      max-width: 70%;
+      max-width: 95%;
     }
   
   }
