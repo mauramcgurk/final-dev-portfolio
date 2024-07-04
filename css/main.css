@@ -449,7 +449,7 @@
   
   footer .social-icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
   
   footer ul {
@@ -471,7 +471,8 @@
   }
 
   footer p {
-    padding-top: 1.5rem;
+    /* padding-top: 1.5rem; */
+    line-height: 1.5;
   }
   
   
@@ -777,7 +778,7 @@
     }
   
     footer .social-icons {
-      width: 12.5em;
+      width: 90%;
     }
   
     footer .social-icons li i {
