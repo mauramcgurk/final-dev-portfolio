@@ -220,12 +220,12 @@
   
   /* then can set the margin & paddings for any element */
   header {
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   nav {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
   
   #work {
@@ -321,31 +321,14 @@
     justify-content: space-between;
   }
   
-  header h1 {
+  /*
+  header h1 h2 {
     width: 100%;
   }
-  
-  header h2 {
-    width: 100%
-  }
+  */
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
   
-	
-	/* Hero Area */
-
-.hero-area figure {
-  background:
-                linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url(../img/maura-hero-img_1400x725.png) center no-repeat #333;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  min-height: 500px;
-  width: 100%;
-}
-
 /* Portfolio */
   #work,
   #skills {
@@ -431,7 +414,7 @@
     color: #4a4f3e;
   }
   
-  /* -------------------- Base Header Styles -------------------- */
+  /* -------------------- Base Footer Styles -------------------- */
   footer {
     background-color: #FFE8D6;
   }
