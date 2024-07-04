@@ -141,7 +141,9 @@
   .tool-wrapper p {
     text-transform: uppercase;
     font-size: 1.125rem;
-    color: #453E4F;
+    /* color: #453E4F; */
+    background-color: #27474E;
+    color: #ffffeb;
   }
   
   
@@ -369,10 +371,10 @@
   }
   
   .project-link {
-    background-color: #453E4F;
+    background-color: #27474e;
     padding: .75rem 3.75rem;
     border-radius: 30px;
-    color: #FFFFFF;
+    color: #ffffeb;
   }
   
   .project-link:hover {
