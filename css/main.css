@@ -335,6 +335,15 @@
 	
 	/* Hero Area */
 
+.hero-area {
+  background: url(./img/maura-hero-img_1400x725.png) center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  min-height: 500px;
+  width: 100%;
+}
 
 /* Portfolio */
   #work,
