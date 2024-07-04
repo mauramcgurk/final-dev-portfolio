@@ -145,7 +145,6 @@
   }
   
   
-  
   .about-info h4,
   .contact-title {
     font-weight: 400;
@@ -335,8 +334,8 @@
 	
 	/* Hero Area */
 
-.hero-area {
-  background: url(./img/maura-hero-img_1400x725.png) center no-repeat;
+.hero-area figure {
+  background: url(../img/maura-hero-img_1400x725.png) center no-repeat #333;
   background-size: cover;
   display: flex;
   justify-content: center;
