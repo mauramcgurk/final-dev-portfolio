@@ -335,7 +335,9 @@
 	/* Hero Area */
 
 .hero-area figure {
-  background: url(../img/maura-hero-img_1400x725.png) center no-repeat #333;
+  background:
+                linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url(../img/maura-hero-img_1400x725.png) center no-repeat #333;
   background-size: cover;
   display: flex;
   justify-content: center;
