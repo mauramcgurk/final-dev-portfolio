@@ -248,7 +248,7 @@
   }
   
   h2 {
-    margin-top: 60px;
+    margin-top: 20px;
   }
   
   h3 {
@@ -441,11 +441,19 @@
     width: 100%;
   }
   
+  /*
   footer .follow-section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
+  */
+
+  /* 
+  footer .copyright {
+    background-color: #000;
+  }
+  */
   
   footer .social-icons {
     display: flex;
@@ -628,7 +636,7 @@
     }
   
     h2 {
-      margin-top: 80px;
+      margin-top: 20px;
     }
   
     .portfolio-header {
@@ -872,7 +880,7 @@
     }
   
     h2 {
-      margin: 40px 0 0 0;
+      margin: 20px 0 0 0;
     }
   
     .portfolio-header {
