@@ -462,11 +462,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 12rem;
   }
   
   footer .social-icons li i {
     font-size: 1.875rem;
     color: #453e4f;
+  }
+
+  footer p {
+    padding-top: 1.5rem;
   }
   
   
