@@ -416,6 +416,10 @@
   #about p {
     color: #4a4f3e;
   }
+
+  #about h3 {
+    padding-bottom: 2rem;
+  }
   
   /* -------------------- Base Footer Styles -------------------- */
   footer {
