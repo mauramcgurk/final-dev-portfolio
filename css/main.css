@@ -462,7 +462,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 12rem;
+    padding: 15px 0px;
+    /* padding-left: 60px; */
   }
   
   footer .social-icons li i {
@@ -616,10 +617,6 @@
   
     #skills {
       padding-bottom: 80px;
-    }
-  
-    footer {
-      padding: 140px 0;
     }
   
     #about {
@@ -779,6 +776,7 @@
   
     footer .social-icons {
       width: 90%;
+      padding-left: 60px;
     }
   
     footer .social-icons li i {
