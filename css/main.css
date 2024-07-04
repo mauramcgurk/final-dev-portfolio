@@ -45,7 +45,7 @@
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #27474E;
     margin: 1em 0;
     padding: 0;
   }
@@ -454,7 +454,7 @@
     background-color: #000;
   }
   */
-  
+
   footer .social-icons {
     display: flex;
     justify-content: center;
@@ -484,7 +484,9 @@
     line-height: 1.5;
   }
   
-  
+  hr .solid {
+    border-top: 3px solid #27474E;
+  }
   
   
   /* ==========================================================================
