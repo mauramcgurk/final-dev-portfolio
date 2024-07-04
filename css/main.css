@@ -235,7 +235,7 @@
   }
   
   #skills {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
   
   #about {
@@ -268,7 +268,7 @@
   }
   
   #skills {
-    padding-top: 80px;
+    padding-top: 60px;
   }
   
   figure {
@@ -383,7 +383,7 @@
   }
   
   #skills {
-    background-color: #FFE8D6;
+    background-color: #ff9913;
   }
   
   #skills h4 {
@@ -393,7 +393,7 @@
   
   .language-wrapper p,
   .tool-wrapper p {
-    background-color: #F19494;
+    background-color: #27474E;
     padding: 15px 0;
     margin: 20px 0;
   }
