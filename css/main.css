@@ -365,6 +365,16 @@
     width: 100%;
     filter: drop-shadow(1px 2px 6px lightgrey);
   }
+
+  
+  /*
+  .portfolio img {
+    display: flex;
+    height: 300px;  /* Set the desired height 
+    width: 300px;  /* Set the desired width 
+    object-fit: cover;
+  }
+  */
   
   .flex-fill {
     flex-grow: 1;
