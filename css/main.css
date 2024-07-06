@@ -313,7 +313,7 @@
   }
   
   nav #contact-link {
-    background-color: #27474E;
+    background-color: #107e7d;
     color: #ffffeb;
     padding: 10px 10px;
     border-radius: 30px;
@@ -383,7 +383,7 @@
   }
   
   .project-link {
-    background-color: #27474e;
+    background-color: #107e7d;
     padding: .75rem 3.75rem;
     border-radius: 30px;
     color: #ffffeb;
@@ -405,7 +405,7 @@
   
   .language-wrapper p,
   .tool-wrapper p {
-    background-color: #27474E;
+    background-color: #107e7d;
     padding: 15px 0;
     margin: 20px 0;
   }
