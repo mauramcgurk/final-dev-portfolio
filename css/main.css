@@ -45,7 +45,7 @@
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #27474E;
+    border-top: 1px solid #107e7d;
     margin: 1em 0;
     padding: 0;
   }
@@ -142,7 +142,7 @@
     text-transform: uppercase;
     font-size: 1.125rem;
     /* color: #453E4F; */
-    background-color: #27474E;
+    background-color: #107e7d;
     color: #ffffeb;
   }
   
@@ -304,7 +304,7 @@
   header {
      background-color: #ff9913;
   }
-  
+
   header nav ul li {
     font-size: .75rem;
     margin-bottom: 20px;
