@@ -16,6 +16,12 @@
     font-size: 1em;
     line-height: 1.4;
   }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;  
+    }
+}
   
   /*
    * Remove text-shadow in selection highlight:
