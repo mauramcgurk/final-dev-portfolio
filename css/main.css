@@ -420,7 +420,7 @@
   }
 
   #about h3 {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   
   /* -------------------- Base Footer Styles -------------------- */
@@ -895,7 +895,7 @@
     }
   
     .about-info h4 {
-      margin: 40px 0;
+      margin: 10px 0 40px 0;
     }
   
     .about-text {
