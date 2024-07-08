@@ -200,8 +200,8 @@
     flex-flow: row wrap;
   }
   
-  .content-wrapper {
-    width: 85%;
+  .nav-content-wrapper {
+    width: 95%;
   }
   
   #work p,
@@ -777,8 +777,7 @@
     }
   
     footer .social-icons {
-      width: 90%;
-      padding-left: 60px;
+      width: 100%;
     }
   
     footer .social-icons li i {
@@ -918,11 +917,17 @@
     }
   
     /* header */
-    header .content-wrapper {
+    header #content-wrapper {
       justify-content: flex-end;
+      /*
+      THIS NEEDS ADJUSTING - NOW GOES TO LARGER DIV THAT SURROUNDS WHOLE HEADER
+      SIZE??*/
     }
   
     header nav {
+      /*
+      MIGHT NEED ADJUSTING - DIVS HAVE CHANGED 
+      SIZE?? */
       justify-content: flex-end;
       width: 45%;
     }
@@ -939,12 +944,20 @@
       border-radius: 30px;
     }
   
+    #name-content-wrapper {
+      justify-content: center;
+      /*
+      CHECK ON THIS ONE - DIVS HAVE CHANGED 
+      SIZE??? */
+    }
+
     .home-title {
       max-width: 95%;
     }
   
     .home-title h2 {
       max-width: 70%;
+      /* IS THIS OK FOR SIZE??? */
     }
   
     /* portfolio */
