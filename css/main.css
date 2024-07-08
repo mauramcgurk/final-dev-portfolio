@@ -465,10 +465,17 @@
     font-size: 1.875rem;
     color: #453e4f;
   }
-
-  footer p {
+  
+  footer a, p {
     line-height: 1.5;
   }
+
+  footer a {
+    color:#453E4F;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-decoration: underline;
+  } 
   
   hr .solid {
     border-top: 3px solid #27474E;
