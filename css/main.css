@@ -142,8 +142,8 @@
     font-size: 1.5rem;
   }
   
-  .project-link,
-  .language-wrapper p,
+  .project-link,/* 
+  .language-wrapper p, */
   .tool-wrapper p {
     text-transform: uppercase;
     font-size: 1.125rem;
@@ -297,7 +297,7 @@
   }
   
   figure {
-    margin: 20px 0 40px 0;
+    margin-bottom: 10px;
   }
   
   .skills-header {
@@ -390,10 +390,10 @@
 
   
   .skills-item {
-    padding: 0 5px;
-    width: 25%;
-    /* margin: 5px 10px 10px 0; */
-    /* padding: 0px 10px 5px 0px; */
+    padding: 0 15px 10px 15px;
+    width: 20%;
+    margin: 0 30px 35px 30px;
+    max-width: 125px;
   }
 
 
@@ -445,8 +445,8 @@
     font-weight: bold;
   }
   
-  .language-wrapper p,
-  /* .skills-wrapper p, */
+  /* .language-wrapper p,
+  .skills-wrapper p, */
   .tool-wrapper p {
     background-color: #107e7d;
     padding: 15px 0;
@@ -777,7 +777,7 @@
       width: 95%;
     }
   
-    .language-wrapper,
+    /* .language-wrapper, */
     .tool-wrapper {
       display: flex;
       justify-content: space-evenly;
@@ -792,6 +792,9 @@
       width: 100%;
       flex-flow: row wrap;
       text-transform: uppercase;
+      /* padding: 0 50px 0 50px; 
+      /* margin: 0 50px 0 50px; 
+      CAN'T CENTER THESE TWO - WHY NOT*/
     }
   
     .skill,
@@ -799,7 +802,7 @@
       width: 45%;
     }
   
-    .language-wrapper p,
+    /* .language-wrapper p, */
     .tool-wrapper p {
       padding: 15px 0;
     }
@@ -905,17 +908,19 @@
   
     p {
       font-size: 1.25rem;
+      font-weight: bold;
+      line-height: 1.25rem;
     }
   
     .project-link,
-    .language-wrapper p, 
+    /* .language-wrapper p, */
     /* .skills-wrapper p, */
     .tool-wrapper p {
       font-size: 1rem;
     }
 
     .skills-wrapper p {
-      font-size: 1rem;
+      /* font-size: 1rem; */
     }
   
     /* element margins */
@@ -959,7 +964,8 @@
     }
   
     #skills .content-wrapper {
-      max-width: 900px;
+      max-width: 1100px;
+      padding: 0 100px;
     }
   
     .skills-header {
