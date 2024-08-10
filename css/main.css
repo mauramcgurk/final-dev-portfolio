@@ -148,9 +148,14 @@
     text-transform: uppercase;
     font-size: 1.125rem;
     background-color: #107e7d;
-    color: #ffffeb;
+    color: ##ffffeb;
   }
-  
+
+  .skills-wraper p {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    color: #453E4F;
+  }
   
   .about-info h4,
   .contact-title {
@@ -382,6 +387,38 @@
     vertical-align: middle;
     filter: drop-shadow(1px 2px 6px lightgrey);
   }
+
+  
+  .skills-item {
+    padding: 0 5px;
+    width: 25%;
+    /* margin: 5px 10px 10px 0; */
+    /* padding: 0px 10px 5px 0px; */
+  }
+
+
+  .skills figure {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    /* margin: 10px 0 20px 0; */
+    padding: 0 5px;
+  }
+
+  .skills article {
+    /* padding-top: 10px; */
+    margin-bottom: 15px;
+    /* width: 30%; */
+  }
+
+  .skills article {
+    display: flex;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    justify-content:center;
+    flex-flow: row-wrap;
+    text-align: center;
+  }
   
   .flex-fill {
     flex-grow: 1;
@@ -409,6 +446,7 @@
   }
   
   .language-wrapper p,
+  /* .skills-wrapper p, */
   .tool-wrapper p {
     background-color: #107e7d;
     padding: 15px 0;
@@ -747,6 +785,14 @@
       flex-flow: row wrap;
       text-transform: uppercase;
     }
+
+    .skills-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      flex-flow: row wrap;
+      text-transform: uppercase;
+    }
   
     .skill,
     .tool {
@@ -755,6 +801,10 @@
   
     .language-wrapper p,
     .tool-wrapper p {
+      padding: 15px 0;
+    }
+
+    .skills-wrapper p {
       padding: 15px 0;
     }
   
@@ -858,8 +908,13 @@
     }
   
     .project-link,
-    .language-wrapper p,
+    .language-wrapper p, 
+    /* .skills-wrapper p, */
     .tool-wrapper p {
+      font-size: 1rem;
+    }
+
+    .skills-wrapper p {
       font-size: 1rem;
     }
   
