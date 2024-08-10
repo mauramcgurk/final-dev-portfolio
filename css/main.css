@@ -390,9 +390,10 @@
 
   
   .skills-item {
-    padding: 0 15px 10px 15px;
-    width: 20%;
-    margin: 0 30px 35px 30px;
+    padding: 0 50px 10px 50px;
+    width: 30%;
+    /* margin: 0 30px 35px 30px; */
+    margin: auto;
     max-width: 125px;
   }
 
@@ -775,6 +776,11 @@
   
     .project-description {
       width: 95%;
+    }
+
+    .skills-item {
+      width: 25%;
+      align-items: center;
     }
   
     /* .language-wrapper, */
