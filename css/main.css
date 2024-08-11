@@ -226,9 +226,15 @@
 
   #work p,
   #about p {
-    width: 100%;
+    width: 90%;
     text-align: left;
   }
+
+  #about p {
+    padding-right: 50px;
+    line-height: 1.75rem;
+  }
+
   
   /* set the margins & paddings for each section - these are only a suggestion :) */
   /* setting all margins to zero removes all browser added default margins */
@@ -271,7 +277,7 @@
   footer {
     padding: 20px 0;
   }
-  
+
   h2 {
     margin-top: 20px;
   }
@@ -389,8 +395,12 @@
   }
 
   
+  .skills-header {
+    color: black;
+  }
+
   .skills-item {
-    padding: 0 50px 10px 50px;
+    padding: 0 50px 30px 50px;
     width: 30%;
     /* margin: 0 30px 35px 30px; */
     margin: auto;
@@ -401,7 +411,7 @@
   .skills figure {
     width: 100%;
     height: auto;
-    vertical-align: middle;
+    vertical-align: top;
     /* margin: 10px 0 20px 0; */
     padding: 0 5px;
   }
@@ -410,6 +420,19 @@
     /* padding-top: 10px; */
     margin-bottom: 15px;
     /* width: 30%; */
+  }
+
+  .skill-title {
+    color: black;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  #api-skill-title {
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    text-transform: none;
   }
 
   .skills article {
@@ -520,14 +543,25 @@
     color: #453e4f;
   }
   
-  footer a, p {
+  /* footer a, p {
     line-height: 1.5;
-  }
+    font-size: 1.25 rem;
+    padding-top: 1.25 rem;
+  } */
 
-  footer a {
+    
+  /* #location {
+    font-size: 1.25 rem;
+    padding-top: 1.25 rem;
+  } */
+
+  footer a, p {
     color:#453E4F;
     font-size: 1.25rem;
     line-height: 1.5;
+  } 
+
+  footer a {
     text-decoration: underline;
   } 
   
@@ -713,11 +747,11 @@
     }
   
     .about-info h3 {
-      margin: 80px 0;
+      margin: 40px 0;
     }
   
     .about-info h4 {
-      margin: 0 0 60px 0;
+      margin: 0 0 30px 0;
     }
   
     .about-text {
@@ -914,7 +948,7 @@
   
     p {
       font-size: 1.25rem;
-      font-weight: bold;
+      /* font-weight: bold; */
       line-height: 1.25rem;
     }
   
@@ -988,6 +1022,7 @@
   
     .about-text {
       margin: 0 0 30px 0;
+      padding-right: 25px;
     }
   
     .contact-info {
@@ -1064,6 +1099,8 @@
   
     .about-info {
       width: 58%;
+      margin-right: 50px;
+      /* padding-right: 25px; */
     }
   
     /* contact */
