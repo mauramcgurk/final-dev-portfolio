@@ -353,6 +353,7 @@
   nav ul {
     display: flex;
     justify-content: space-between;
+    /* justify-content: space-around; */
   }
   
   
@@ -550,8 +551,7 @@
   } */
 
     
-  /* #location {
-    font-size: 1.25 rem;
+  /* #location p {
     padding-top: 1.25 rem;
   } */
 
@@ -784,9 +784,11 @@
     header nav ul {
       /* keep if using hamburger menu */
       display: flex;
-      justify-content: space-between;
+      /* justify-content: space-between; */
+      justify-content: space-around;
       width: 80%;
     }
+
   
     .home-title {
       display: flex;
