@@ -143,6 +143,13 @@
   h5 {
     font-size: 1.5rem;
   }
+
+.nav-branding {
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
   
   .project-link,
   .tool-wrapper p {
@@ -236,7 +243,7 @@
   }
 
   .nav-branding {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .nav-link {
