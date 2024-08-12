@@ -194,6 +194,17 @@
     color: #ffffeb;
   }
 
+  .home-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .home-title h2 {
+    max-width: 80%;
+  }
+
+  
   .skills-wrapper p {
     text-transform: uppercase;
     font-size: 1.125rem;
@@ -925,16 +936,7 @@
     */
 
   
-    .home-title {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-    }
-  
-    .home-title h2 {
-      max-width: 80%;
-    }
-  
+    
     /* ------------------ portfolio ------------------- */
     .portfolio-wrapper {
       justify-content: space-around;
@@ -1030,11 +1032,10 @@
     footer .copyright {
       width: 100%;
     }
-  }
   
+  
+   /* ---------- Lndscape tablets and iPad Pro ----------- */
   @media only screen and (min-width:1024px) {
-  
-    /* added for landscape tablets and iPad Pro */
     .content-wrapper {
       max-width: 900px;
     }
