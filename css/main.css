@@ -108,10 +108,12 @@
     padding: 0;
   }
   
-  a {
+ /* THIS IS FROM BEFORE - WILL STILL NEED FOR FOOTER
+ a {
     color: #453E4F;
     text-decoration: none;
   }
+  */
   
   h1 {
     color: #453E4F;
@@ -142,13 +144,12 @@
     font-size: 1.5rem;
   }
   
-  .project-link,/* 
-  .language-wrapper p, */
+  .project-link,
   .tool-wrapper p {
     text-transform: uppercase;
     font-size: 1.125rem;
     background-color: #107e7d;
-    color: ##ffffeb;
+    color: #ffffeb;
   }
 
   .skills-wraper p {
@@ -194,7 +195,8 @@
   }
   
   /* Structural Styles */
-  header,
+  /* this is from before
+  header, */
   #work,
   #skills,
   #about,
@@ -218,7 +220,53 @@
     /* width: 95%; 
   } */
   
-    
+  .navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  } 
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .nav-branding {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    transition: 0.7s ease;
+  }
+
+  nav a {
+    color: #453E4F;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #ffffeb;
+  }
+
+  hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    background-color: #453E4F;
+  }
+
   .content-wrapper {
     /* width: 85%; */
     width: 100%;
@@ -252,15 +300,19 @@
   }
   
   /* then can set the margin & paddings for any element */
+  /* THIS IS FROM BEFORE
   header {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  */
   
+ /* THIS IS FROM BEFORE
   nav {
     margin-bottom: 30px;
   }
-  
+  */
+
   #work {
     padding-top: 60px;
   }
@@ -336,13 +388,31 @@
      background-color: #ff9913;
   }
 
+  /*
+  THIS IS MIX OF VIDEO AND FROM BEFORE...TRYING SOMETHING NEW...
+  nav { /* new - all from video except width which seemed needed 
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  } 
+  */
+
+  /* this is from before - not Youtube code 
   header nav ul li {
     font-size: .75rem;
     margin-bottom: 20px;
     font-weight: bold;
     text-transform: uppercase;
   }
+  */
   
+  /*
+  THIS IS FROM BEFORE
   nav #contact-link {
     background-color: #107e7d;
     color: #ffffeb;
@@ -353,9 +423,9 @@
   nav ul {
     display: flex;
     justify-content: space-between;
-    /* justify-content: space-around; */
-  }
-  
+    /* justify-content: space-around; 
+  } */
+ 
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
   
@@ -470,8 +540,6 @@
     font-weight: bold;
   }
   
-  /* .language-wrapper p,
-  .skills-wrapper p, */
   .tool-wrapper p {
     background-color: #107e7d;
     padding: 15px 0;
@@ -659,8 +727,46 @@
      ========================================================================== */
   @media only screen and (min-width:768px) {
     /*Tablet styles here*/
-  
-    /* General styles */
+    .hamburger {
+      display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+      position:fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction:column;
+      background-color: #ff9913;
+      width: 100%;
+      text-align:center;
+      transition: 0.3s;
+    }
+
+    .nav-item {
+      margin: 16px 0;
+    }
+
+    .nav-menu.active {
+      left: 0;
+    }  
+  }
+
+    /* -------------- General styles ---------------- */
+     
+    
     .content-wrapper {
       max-width: 640px;
     }
@@ -686,20 +792,26 @@
       font-size: 1.5rem;
     }
   
+    /* THIS IS FROM BEFORE
     header nav ul li {
       font-size: 1rem;
     }
+    */
   
     /* element margins */
     /* the list element have 20px of bottom margin already */
+    /* THIS IS FROM BEFORE
     header {
       padding-top: 60px;
       padding-bottom: 80px;
     }
+    */
   
-    nav {
+     /* THIS IS FROM BEFORE
+     nav {
       margin: 0 0 60px 0;
     }
+    */
   
     /*#work */
     #work {
@@ -767,27 +879,43 @@
     }
   
     /* header */
+    /* THIS IS FROM BEFORE
     header .content-wrapper {
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
     }
+    */
   
-    header nav {
-      /* keep if using hamburger menu */
+     /* THIS IS FROM BEFORE
+     header nav {
+      /* keep if using hamburger menu - below goes with E. Gunn's style here
       display: flex;
       justify-content: center;
-      width: 85%;
+      width: 85%; */
       text-transform: uppercase;
+      /* new styles from YouTube  -- BELOW UNTIL END OF CURLY BRACE IN THIS SECTION
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 24px;
     }
+    */
   
+    /* THIS IS FROM BEFORE: E. GUNN'S STYLING
     header nav ul {
       /* keep if using hamburger menu */
-      display: flex;
-      /* justify-content: space-between; */
+      /*
+      OLD BUT MAYBE KEEP?
+      display: flex;*/
+      /* justify-content: space-between; COMMENTED OUT FROM BEFORE*/
+      /*
+      OLD BUT MAYBE KEEP?
       justify-content: space-around;
       width: 80%;
     }
+    */
 
   
     .home-title {
@@ -800,7 +928,7 @@
       max-width: 80%;
     }
   
-    /* portfolio */
+    /* ------------------ portfolio ------------------- */
     .portfolio-wrapper {
       justify-content: space-around;
     }
@@ -819,7 +947,6 @@
       align-items: center;
     }
   
-    /* .language-wrapper, */
     .tool-wrapper {
       display: flex;
       justify-content: space-evenly;
@@ -844,7 +971,6 @@
       width: 45%;
     }
   
-    /* .language-wrapper p, */
     .tool-wrapper p {
       padding: 15px 0;
     }
@@ -955,7 +1081,6 @@
     }
   
     .project-link,
-    /* .language-wrapper p, */
     /* .skills-wrapper p, */
     .tool-wrapper p {
       font-size: 1rem;
@@ -968,14 +1093,18 @@
     /* element margins */
     /* the list element have 20px of bottom margin already */
     
+    /* THIS IS FROM BEFORE
     header {
       padding-top: 60px;
       padding-bottom: 60px;
     }
+    */
   
+    /* THIS IS FROM BEFORE
     nav {
       margin-bottom: 80px;
     }
+    */
   
     #work {
       padding-top: 40px;
@@ -1035,25 +1164,28 @@
       margin: 0 0 30px 0;
     }
   
-    /* header */
+    /* header --this is from before
     header .content-wrapper {
       justify-content: center;
+      width: 85%;
       /*
       
   
-    header nav {
-      /*
-      MIGHT NEED ADJUSTING - DIVS HAVE CHANGED 
-      SIZE?? */
+     /* this is from before
+     header nav {
       justify-content: center;
-      width: 45%;
-    }
+      /* width: 45%; 
+    } */
   
+    /* this is from before
     nav ul li a {
       padding: 10px 10px;
     }
+    */
+
   
-    nav ul li a:hover,
+    /* this is from before
+     nav ul li a:hover,
     nav #contact-link:hover {
       background-color: #f0f2a6;
       color: #453E4F;
