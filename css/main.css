@@ -93,7 +93,7 @@
      Author's custom styles
      ========================================================================== */
   
-  /* General Styles */
+  /* --------------------- Mobile First General Styles --------------------- */
   body {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
@@ -108,12 +108,46 @@
     padding: 0;
   }
   
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    width: 100%
+  }
+  
+  p,
+  li {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Do some of these belong under General Styles above? */
+  span {
+    font-weight: bold;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
  /* THIS IS FROM BEFORE - WILL STILL NEED FOR FOOTER
  a {
     color: #453E4F;
     text-decoration: none;
   }
   */
+
+/* ------------------------ Mobile First Header and Nav ----------------------- */
   
   h1 {
     color: #453E4F;
@@ -123,17 +157,21 @@
     width: 100%
   }
   
-  h2 {
+  .home-title h2 {
     color: #453E4F;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    /* font-size: 1.25rem; */
     line-height: 1.5;
     width: 100%;
     font-weight: 400;
+    margin-bottom: .5rem;
   }
   
-  h3 {
-    font-size: 1.75rem;
+  #home-title-span {
+    font-size: 1.25rem;
+    font-weight: regular;
+    /* font-size: 1.75rem; */
   }
   
   h4 {
@@ -149,6 +187,7 @@
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  font-size: 2rem;
 }
 .hamburger {
   display: block;
@@ -186,25 +225,35 @@
   left: 0;
 }  
 
+.home-title {
+  /* display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center; */
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* .home-title h2 {
+  max-width: 80%;
+} */
+
+/* ------------------------ Mobile First Portfolio ----------------------- */
   .project-link,
   .tool-wrapper p {
     text-transform: uppercase;
     font-size: 1.125rem;
     background-color: #107e7d;
     color: #ffffeb;
+    text-decoration:none;
   }
 
-  .home-title {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  #work h3 {
+    padding-top: 1rem;
   }
 
-  .home-title h2 {
-    max-width: 80%;
-  }
 
-  
   .skills-wrapper p {
     text-transform: uppercase;
     font-size: 1.125rem;
@@ -214,37 +263,6 @@
   .about-info h4,
   .contact-title {
     font-weight: 400;
-  }
-  
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-    width: 100%
-  }
-  
-  p,
-  li {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  
-  span {
-    font-weight: bold;
-  }
-  
-  img {
-    width: 100%;
-  }
-  
-  figure {
-    margin: 0;
-  }
-  
-  address {
-    font-style: normal;
   }
   
   /* Structural Styles */
@@ -274,6 +292,7 @@
   } */
   
   .navbar {
+    background: white;
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -289,7 +308,7 @@
   }
 
   .nav-branding {
-    font-size: 3rem;
+
   }
 
   .nav-link {
@@ -325,6 +344,11 @@
     width: 100%;
   }
 
+  /* #work {
+    padding-top: 20px;
+  }
+  */
+
   #work p,
   #about p {
     width: 90%;
@@ -338,9 +362,10 @@
 
   
   /* set the margins & paddings for each section - these are only a suggestion :) */
-  /* setting all margins to zero removes all browser added default margins */
+  /* setting all margins to zero removes all browser added default margins 
+  SHOULD THIS GO ABOVE, UNDER GENERAL STYLES??? */
   h1,
-  h2,
+  /* h2, */
   h3,
   h4,
   h5,
@@ -365,10 +390,6 @@
     margin-bottom: 30px;
   }
   */
-
-  #work {
-    padding-top: 60px;
-  }
   
   #skills {
     padding-bottom: 60px;
@@ -778,11 +799,7 @@
     These override the primary, mobile-first styles.
      ========================================================================== */
   @media only screen and (min-width:768px) {
-    /*Tablet styles here*/
-    
-  }
-
-    /* -------------- General styles ---------------- */
+    /* -------------- Tablet styles ------------------- */
      
     
     .content-wrapper {
@@ -937,7 +954,7 @@
 
   
     
-    /* ------------------ portfolio ------------------- */
+    /* ------------------ Portfolio [Tablet] ------------------- */
     .portfolio-wrapper {
       justify-content: space-around;
     }
@@ -1032,9 +1049,9 @@
     footer .copyright {
       width: 100%;
     }
+  }
   
-  
-   /* ---------- Lndscape tablets and iPad Pro ----------- */
+   /* ---------- Landscape tablets and iPad Pro ----------- */
   @media only screen and (min-width:1024px) {
     .content-wrapper {
       max-width: 900px;
@@ -1051,9 +1068,8 @@
   @media only screen and (min-width:1200px) {
     .content-wrapper {
       max-width: 1450px;
-    }
   
-    /* font styles */
+    /* ------------------ Font Styles [Desktop] ---------------------- */
     h1 {
       font-size: 4rem;
     }
@@ -1087,6 +1103,10 @@
       font-size: 1.25rem;
       /* font-weight: bold; */
       line-height: 1.25rem;
+    }
+
+    #work {
+      padding-top: 60px;
     }
   
     .project-link,
@@ -1210,20 +1230,20 @@
     }
 
     .home-title {
-      max-width: 95%;
+      max-width: 100%;
     }
   
-    .home-title h2 {
+   /* .home-title h2 {
       max-width: 70%;
-      /* IS THIS OK FOR SIZE??? */
-    }
+      /* IS THIS OK FOR SIZE??? 
+    } */
   
-    /* portfolio */
+    /* ----------------------- Portfolio [Desktop] ------------------------ */
     .home-portfolio-piece {
       width: 30%;
     }
   
-    /* skills */
+    /* ------------------------ Skills [Desktop] -------------------------- */
     .skill,
     .tool {
       width: 30%;
@@ -1250,7 +1270,6 @@
     footer .content-wrapper {
       max-width: 95%;
     }
-  
   }
   
   
