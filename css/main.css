@@ -139,7 +139,7 @@
   address {
     font-style: normal;
   }
-  
+
  /* THIS IS FROM BEFORE - WILL STILL NEED FOR FOOTER
  a {
     color: #453E4F;
@@ -392,7 +392,7 @@
   */
   
   #skills {
-    padding-bottom: 60px;
+    padding: 20px 0;
   }
   
   #about {
@@ -424,9 +424,9 @@
     margin: 40px 0 60px 0;
   }
   
-  #skills {
+  /* #skills {
     padding-top: 60px;
-  }
+  } */
   
   figure {
     margin-bottom: 10px;
@@ -437,7 +437,12 @@
   }
   
   .about-info h3 {
-    margin: 40px 0 40px 0;
+    margin: 20px 0 20px 0;
+  }
+
+  .about-info {
+    padding: 0 20px;
+    /*check if this is same as other sections */
   }
   
   .about-text {
@@ -642,6 +647,10 @@
   #about h3 {
     padding-bottom: 1rem;
   }
+
+  /* #about-info h3 {
+    margin: 20px 0;
+  } */
   
   /* -------------------- Base Footer Styles -------------------- */
   footer {
