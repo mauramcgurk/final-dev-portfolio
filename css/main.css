@@ -243,13 +243,14 @@
   .tool-wrapper p {
     text-transform: uppercase;
     font-size: 1.125rem;
-    background-color: #107e7d;
+    background-color: #29697a;
     color: #ffffeb;
     text-decoration:none;
   }
 
   #work h3 {
     padding-top: 1rem;
+    font-size: 1.25rem;
   }
 
 
@@ -295,11 +296,7 @@
   } */
   
   .navbar {
-<<<<<<< HEAD
     background: #a8d5e2;
-=======
-    background: #A8D5E2;
->>>>>>> b02328e4442a62f1f6e9ff0dfd6acbeb776436e8
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -349,6 +346,7 @@
   .content-wrapper {
     /* width: 85%; */
     width: 100%;
+    padding: 10px 20px;
   }
 
   /* #work {
@@ -363,10 +361,7 @@
   }
 
   #about p {
-<<<<<<< HEAD
     padding: 0 10px;
-=======
->>>>>>> b02328e4442a62f1f6e9ff0dfd6acbeb776436e8
     line-height: 1.75rem;
   }
 
@@ -613,11 +608,7 @@
   }
   
   .project-link {
-<<<<<<< HEAD
     background-color: #29697a;
-=======
-    background-color: #29697A;
->>>>>>> b02328e4442a62f1f6e9ff0dfd6acbeb776436e8
     padding: .75rem 3.75rem;
     border-radius: 30px;
     color: #ffffeb;
