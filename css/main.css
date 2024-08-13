@@ -123,7 +123,6 @@
     line-height: 1.5;
   }
   
-  /* Do some of these belong under General Styles above? */
   span {
     font-weight: bold;
   }
@@ -264,6 +263,10 @@
   .contact-title {
     font-weight: 400;
   }
+
+  .contact-title {
+    padding: 0 50px 0 10px;
+  }
   
   /* Structural Styles */
   /* this is from before
@@ -292,7 +295,11 @@
   } */
   
   .navbar {
+<<<<<<< HEAD
     background: #a8d5e2;
+=======
+    background: #A8D5E2;
+>>>>>>> b02328e4442a62f1f6e9ff0dfd6acbeb776436e8
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -356,7 +363,10 @@
   }
 
   #about p {
+<<<<<<< HEAD
     padding: 0 10px;
+=======
+>>>>>>> b02328e4442a62f1f6e9ff0dfd6acbeb776436e8
     line-height: 1.75rem;
   }
 
@@ -445,9 +455,9 @@
     /*check if this is same as other sections */
   }
   
-  .about-text {
+  /* .about-text {
     margin: 0 0 30px 0;
-  }
+  } */
   
   #contact h3 {
     margin-bottom: 20px;
@@ -459,6 +469,10 @@
   
   .contact-title {
     margin: 0 0 40px 0;
+  }
+
+  .footer-content-wrapper {
+    padding: 0 20px;
   }
   
   /* -------------------- Base Header Styles -------------------- */
@@ -599,7 +613,11 @@
   }
   
   .project-link {
+<<<<<<< HEAD
     background-color: #29697a;
+=======
+    background-color: #29697A;
+>>>>>>> b02328e4442a62f1f6e9ff0dfd6acbeb776436e8
     padding: .75rem 3.75rem;
     border-radius: 30px;
     color: #ffffeb;
@@ -645,9 +663,9 @@
     color: #4a4f3e;
   }
 
-  #about h3 {
+  /* #about h3 {
     padding-bottom: 1rem;
-  }
+  } */
 
   /* #about-info h3 {
     margin: 20px 0;
