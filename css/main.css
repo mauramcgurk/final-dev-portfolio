@@ -351,12 +351,12 @@
 
   #work p,
   #about p {
-    width: 90%;
+    width: 100%;
     text-align: left;
   }
 
   #about p {
-    padding-right: 50px;
+    padding: 0 10px;
     line-height: 1.75rem;
   }
 
