@@ -263,6 +263,10 @@
   .contact-title {
     font-weight: 400;
   }
+
+  .contact-title {
+    padding: 0 50px 0 10px;
+  }
   
   /* Structural Styles */
   /* this is from before
@@ -457,6 +461,10 @@
   
   .contact-title {
     margin: 0 0 40px 0;
+  }
+
+  .footer-content-wrapper {
+    padding: 0 20px;
   }
   
   /* -------------------- Base Header Styles -------------------- */
