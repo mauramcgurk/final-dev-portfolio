@@ -899,7 +899,7 @@
     }
   
     .portfolio-header {
-      margin: 0 0 60px 0;
+      margin: 0 0 40px 0;
     }
   
     .project-description {
@@ -985,7 +985,11 @@
     
     /* ------------------ Portfolio [Tablet] ------------------- */
     .portfolio-wrapper {
+      /* display: flex;
       justify-content: space-around;
+      align-items: stretch;
+      flex-flow: row wrap; */
+      gap: 20px;
     }
   
     .home-portfolio-piece {
