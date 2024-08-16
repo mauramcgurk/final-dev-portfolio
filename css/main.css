@@ -212,7 +212,7 @@
   flex-direction:column;
   background-color: #ff9913;
   width: 100%;
-  text-align:center;
+  text-align: center;
   transition: 0.3s;
 }
 
@@ -1102,6 +1102,10 @@
   @media only screen and (min-width:1024px) {
     .content-wrapper {
       max-width: 900px;
+    }
+
+    .hamburger {
+      display: none;
     }
   
     .home-title h1 {
