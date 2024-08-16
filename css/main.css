@@ -1130,7 +1130,7 @@
     }
   
     h2 {
-      font-size: 2rem;
+      font-size: 3rem;
     }
   
     h3 {
@@ -1145,9 +1145,14 @@
       font-size: 1.5rem;
     }
   
+    #about {
+      align-items: center;
+    }
+    
     .about-info h3 {
-      font-size: 3.75rem;
-      text-align: left;
+      font-size: 2.75rem;
+      line-height: 2.75rem;
+      text-align: center;
     }
   
     .about-info h4 {
@@ -1174,8 +1179,14 @@
       font-size: 3rem;
     }
 
+    .skills-wrapper {
+      /* margin: 0 75px; */
+      /* padding: 0px 25px; */
+    }
+
     .skills-wrapper p {
       /* font-size: 1rem; */
+      /* margin: 0 100px; */
     }
   
     /* element margins */
@@ -1232,7 +1243,7 @@
     }
   
     .about-info h3 {
-      margin: 0;
+      margin: 20px 10px;
     }
   
     .about-info h4 {
@@ -1311,7 +1322,9 @@
     /* about */
     .about-content-wrapper {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row;
     }
   
     #about figure {
@@ -1328,6 +1341,10 @@
     /* contact */
     footer .content-wrapper {
       max-width: 95%;
+    }
+
+    footer h2 {
+      font-size: 3rem;
     }
   }
   
