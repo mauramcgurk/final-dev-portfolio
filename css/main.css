@@ -194,11 +194,11 @@
 
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
-}
+} 
 
 .hamburger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-}
+} 
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
@@ -312,7 +312,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 5px;
   }
 
   .nav-branding {
@@ -329,7 +329,9 @@
   }
   
   .nav-link:hover {
-    color: #ffffeb;
+    /* color: #ffffeb; */
+    color: #453E4F;
+    font-weight: bold;
   }
 
   hamburger {
