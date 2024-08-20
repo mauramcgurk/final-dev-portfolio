@@ -211,7 +211,7 @@
   top: 70px;
   gap: 0;
   flex-direction:column;
-  background-color: #ff9913;
+  /* background-color: #ff9913; */
   width: 100%;
   text-align: center;
   transition: 0.3s;
@@ -1145,21 +1145,71 @@
     .content-wrapper {
       max-width: 900px;
     }
-
-    /* trying to add horizontal nav -- this doesn't work!
     
+    .navbar {
+    /* min-height: 100px; */
+    min-height: 95px;
+      /* padding: 0 35px; */
+    }
+   
     .nav-menu {
-      position:fixed;
-      left: -100%;
-      top: 70px;
-      gap: 0;
-      flex-direction:column;
-      background-color: #ff9913;
-      width: 100%;
+      /* position:fixed; */
+      display: flex;
+      position:sticky;
+      align-items: center;
+      /* justify-content: space-between; */
+      justify-content: space-around;
+      flex-direction: row;
+      /* left: -100%; */
+      left: 0%;
+      /* top: 70px; */
+      top: 0px;
+      /* gap: 0; */
+      /* flex-direction:column; */
+      /* background-color: #ff9913; */
+      width: 60%;
       text-align: center;
-      transition: 0.3s;
+      /* transition: 0.3s; */
+      /* color:#453E4F; */
+      /* display:inline; */
+      padding: 10px 20px;
+      margin-right: 20px;
+    }
+
+    #nav-item-projects,
+    #nav-item-skills,
+    #nav-item-about,
+    #nav-item-contact  /* li */ {
+      /* color:#453e4f; */
+      font-size: 1.125rem;
+      line-height: normal;
+      /* margin: 10px 0px; */
+    }
+
+    #nav-item-projects a,
+    #nav-item-skills a,
+    #nav-item-about a,
+    #nav-item-contact a {
+      color:#453e4f;
+      line-height: normal;
+      /* display: inline; */
+      /* padding: 10px 0px; */ 
+    }
+
+    #nav-item-projects:hover,
+    #nav-item-skills:hover,
+    #nav-item-about:hover,
+    #nav-item-contact:hover {
+      color: #453E4F; 
+      font-weight: bold;
+    }
+
+    /* nav a {
+      color:#453e4f;
+      padding: 0 10px;
     }
     */
+
 
     .hamburger {
       display: none;
