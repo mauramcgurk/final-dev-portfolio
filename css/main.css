@@ -644,7 +644,10 @@
     padding: .75rem 3.75rem;
     border-radius: 30px;
     color: #ffffeb;
-    font-weight:bold;
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
   }
   
   .project-link:hover {
