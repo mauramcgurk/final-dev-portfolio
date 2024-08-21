@@ -51,7 +51,7 @@
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #107e7d;
+    border-top: 1px solid #29697a;
     margin: 1em 0;
     padding: 0;
   }
@@ -545,21 +545,7 @@
     text-transform: uppercase;
   }
   */
-  
-  /*
-  THIS IS FROM BEFORE
-  nav #contact-link {
-    background-color: #107e7d;
-    color: #ffffeb;
-    padding: 10px 10px;
-    border-radius: 30px;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    /* justify-content: space-around; 
-  } */
+ 
  
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -677,7 +663,7 @@
   }
   
   .tool-wrapper p {
-    background-color: #107e7d;
+    background-color: #29697a;
     padding: 15px 0;
     margin: 20px 0;
   }
