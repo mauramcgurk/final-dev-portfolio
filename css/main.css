@@ -162,7 +162,7 @@
   
   #home-title-span {
     font-size: 1.25rem;
-    font-weight: regular;
+    font-weight: normal;
   }
   
   h4 {
@@ -175,7 +175,6 @@
 
 .nav-branding {
   font-family: "Vollkorn", serif;
-  font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
   font-size: 2rem;
@@ -290,10 +289,6 @@
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-  }
-
-  .nav-branding {
-
   }
 
   #nav-item-work,
@@ -523,7 +518,7 @@
     display: flex;
     align-items: center;
     justify-content:center;
-    flex-flow: row-wrap;
+    flex-flow: row wrap;
     text-align: center;
   }
   
@@ -839,26 +834,6 @@
     .contact-title {
       margin: 0 0 30px 0;
     }
-  
-  
-  
-     /* THIS IS FROM BEFORE
-     header nav {
-      /* keep if using hamburger menu - below goes with E. Gunn's style here
-      display: flex;
-      justify-content: center;
-      width: 85%; */
-      text-transform: uppercase;
-      /* new styles from YouTube  -- BELOW UNTIL END OF CURLY BRACE IN THIS SECTION
-      min-height: 70px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 24px;
-    }
-    */
-
-  
     
     /* ------------------ Portfolio [Tablet] ------------------- */
     .portfolio-wrapper {
@@ -1009,13 +984,14 @@
   }
   
 
-   /* ------------------- Desktop styles ------------------ */
+   /* ------------------------- Desktop styles ----------------------- */
 
   @media only screen and (min-width:1200px) {
     .content-wrapper {
       max-width: 1450px;
   
     /* ------------------ Font Styles [Desktop] ---------------------- */
+    
     h1 {
       font-size: 4rem;
     }
@@ -1065,10 +1041,6 @@
 
     .portfolio-header h2 {
       font-size: 3rem;
-    }
-
-    .skills-wrapper {
-
     }
 
     .skills-wrapper h3 {
